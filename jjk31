@@ -1,0 +1,24 @@
+# started on Thu Dec 19 00:03:24 2019
+
+
+ Performance counter stats for 'mpirun -np 64 /chome/wkucslab01/benchmark/NPB3.4/NPB3.4-MPI/bin/mg.C.x':
+
+   302,750,111,817      instructions              #    0.46  insn per cycle           (18.75%)
+   658,656,884,316      cycles                                                        (18.75%)
+   115,203,360,218      r40c2                                                         (18.75%)
+    15,243,227,234      r20c2                                                         (12.50%)
+    24,986,282,586      branch-instructions                                           (12.50%)
+       394,869,186      branch-misses             #    1.58% of all branches          (12.50%)
+     1,398,556,872      L1-dcache-load-misses                                         (12.50%)
+       645,523,284      L1-icache-load-misses                                         (12.50%)
+   114,734,052,258      L1-icache-loads                                               (12.50%)
+    25,368,132,019      LLC-loads                                                     (12.50%)
+     5,853,875,612      LLC-stores                                                    (12.50%)
+       171,023,734      dTLB-load-misses                                              (12.50%)
+       177,470,097      iTLB-load-misses          #    0.06% of all iTLB cache hits   (12.50%)
+   302,622,408,223      iTLB-loads                                                    (18.75%)
+       988,157,608      cache-misses              #   11.253 % of all cache refs      (18.75%)
+     8,781,151,031      cache-references                                              (18.75%)
+
+       9.370321450 seconds time elapsed
+

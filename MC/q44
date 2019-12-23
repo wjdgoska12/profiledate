@@ -1,0 +1,10 @@
+# started on Fri Dec 20 18:39:54 2019
+
+
+ Performance counter stats for 'system wide':
+
+          3,843.80 Joules power/energy-pkg/                                           
+            171.46 Joules power/energy-ram/                                           
+
+      22.938964614 seconds time elapsed
+
