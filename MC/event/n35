@@ -1,24 +1,24 @@
-# started on Mon Dec 23 21:07:34 2019
+# started on Mon Dec 23 22:46:01 2019
 
 
  Performance counter stats for 'numactl --membind 1 mpirun -np 128 /chome/wkucslab01/benchmark/NPB3.4/NPB3.4-MPI/bin/ep.C.x':
 
-   855,059,247,642      instructions              #    0.39  insn per cycle           (18.75%)
- 2,193,575,430,688      cycles                                                        (18.75%)
-   169,690,906,733      r40c2                                                         (18.75%)
-   290,725,995,934      r20c2                                                         (12.50%)
-   113,466,059,039      branch-instructions                                           (12.50%)
-    14,785,123,354      branch-misses             #   13.03% of all branches          (12.50%)
-     1,558,754,356      L1-dcache-load-misses                                         (12.50%)
-       914,721,512      L1-icache-load-misses                                         (12.50%)
-   631,553,885,802      L1-icache-loads                                               (12.50%)
-    15,425,294,481      LLC-loads                                                     (12.50%)
-     9,540,179,088      LLC-stores                                                    (12.50%)
-       561,301,447      dTLB-load-misses                                              (12.50%)
-     6,358,774,573      iTLB-load-misses          #    0.74% of all iTLB cache hits   (12.50%)
-   855,512,219,138      iTLB-loads                                                    (18.75%)
-       166,713,975      cache-misses              #    3.960 % of all cache refs      (18.75%)
-     4,210,031,986      cache-references                                              (18.75%)
+   856,319,325,753      instructions              #    0.39  insn per cycle           (18.75%)
+ 2,192,680,018,667      cycles                                                        (18.75%)
+   169,676,025,223      r40c2                                                         (18.75%)
+   290,777,272,119      r20c2                                                         (12.50%)
+   113,800,099,305      branch-instructions                                           (12.50%)
+    14,785,994,158      branch-misses             #   12.99% of all branches          (12.50%)
+     1,554,487,602      L1-dcache-load-misses                                         (12.50%)
+       857,785,531      L1-icache-load-misses                                         (12.50%)
+   632,664,972,598      L1-icache-loads                                               (12.50%)
+    15,288,342,903      LLC-loads                                                     (12.50%)
+     9,528,518,902      LLC-stores                                                    (12.50%)
+       565,800,115      dTLB-load-misses                                              (12.50%)
+     6,390,113,082      iTLB-load-misses          #    0.75% of all iTLB cache hits   (12.50%)
+   856,208,894,973      iTLB-loads                                                    (18.75%)
+       161,779,564      cache-misses              #    3.829 % of all cache refs      (18.75%)
+     4,225,212,835      cache-references                                              (18.75%)
 
-      16.631254155 seconds time elapsed
+      16.626297717 seconds time elapsed
 

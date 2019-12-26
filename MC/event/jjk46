@@ -1,0 +1,24 @@
+# started on Tue Dec 24 02:39:38 2019
+
+
+ Performance counter stats for 'numactl --membind 1 mpirun -np 64 /chome/wkucslab01/benchmark/NPB3.4/NPB3.4-MPI/bin/lu.C.x':
+
+ 4,184,598,760,554      instructions              #    0.87  insn per cycle           (18.75%)
+ 4,810,721,111,341      cycles                                                        (18.75%)
+   772,330,361,946      r40c2                                                         (18.75%)
+ 1,732,415,914,317      r20c2                                                         (12.50%)
+   169,560,217,205      branch-instructions                                           (12.50%)
+     1,952,090,477      branch-misses             #    1.15% of all branches          (12.50%)
+    12,613,108,733      L1-dcache-load-misses                                         (12.50%)
+     8,903,639,416      L1-icache-load-misses                                         (12.50%)
+ 1,562,495,678,494      L1-icache-loads                                               (12.50%)
+   122,418,329,376      LLC-loads                                                     (12.50%)
+    33,697,483,634      LLC-stores                                                    (12.50%)
+     2,713,283,983      dTLB-load-misses                                              (12.50%)
+     1,365,384,356      iTLB-load-misses          #    0.03% of all iTLB cache hits   (12.50%)
+ 4,184,510,130,461      iTLB-loads                                                    (18.75%)
+     3,134,241,111      cache-misses              #    5.522 % of all cache refs      (18.75%)
+    56,754,886,623      cache-references                                              (18.75%)
+
+      78.380470940 seconds time elapsed
+
